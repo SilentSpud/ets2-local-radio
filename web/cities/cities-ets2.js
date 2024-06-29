@@ -11157,26 +11157,26 @@ var cities_japan = [
 ];
 
 
-cities = cities.concat(cities_rusmap); //RusMap cities
-cities = cities.concat(cities_pm230); //ProMods 2.30 cities
-cities = cities.concat(cities_pm240); //ProMods 2.40 cities
-cities = cities.concat(cities_pm245); //ProMods 2.45 cities
-cities = cities.concat(cities_pm250); //ProMods 2.50 cities
-cities = cities.concat(cities_pm260); //ProMods 2.60 cities
-cities = cities.concat(cities_pm270); //ProMods 2.70 cities
-cities = cities.concat(cities_pm_me); //ProMods Middle East
-cities = cities.concat(cities_wip); //WIP cities
-cities = cities.concat(cities_srm); //Southern Region Map
-cities = cities.concat(cities_fr); //France DLC
-cities = cities.concat(cities_btbs); //Beyond the Baltic Sea DLC
-cities = cities.concat(cities_balkan_e); //Road to the Black Sea DLC
-cities = cities.concat(cities_balkan_w); //West Balkans DLC
-cities = cities.concat(cities_italy_map); //Italy Map / Italy DLC
-cities = cities.concat(cities_kz); //The Great Steppe
-cities = cities.concat(cities_afromap); //AfroMap
-cities = cities.concat(cities_japan); //AfroMap
-cities = cities.concat(cities_tsm); //TruckSim-Map
-cities = cities.concat(cities_roextended_turkey); //RoExtended Turkey (v2.8)
+cities = cities.concat(cities_rusmap) //RusMap cities
+    .concat(cities_pm230) //ProMods 2.30 cities
+    .concat(cities_pm240) //ProMods 2.40 cities
+    .concat(cities_pm245) //ProMods 2.45 cities
+    .concat(cities_pm250) //ProMods 2.50 cities
+    .concat(cities_pm260) //ProMods 2.60 cities
+    .concat(cities_pm270) //ProMods 2.70 cities
+    .concat(cities_pm_me) //ProMods Middle East
+    .concat(cities_wip) //WIP cities
+    .concat(cities_srm) //Southern Region Map
+    .concat(cities_fr) //France DLC
+    .concat(cities_btbs) //Beyond the Baltic Sea DLC
+    .concat(cities_balkan_e) //Road to the Black Sea DLC
+    .concat(cities_balkan_w) //West Balkans DLC
+    .concat(cities_italy_map) //Italy Map / Italy DLC
+    .concat(cities_kz) //The Great Steppe
+    .concat(cities_afromap) //AfroMap
+    .concat(cities_japan) //AfroMap
+    .concat(cities_tsm) //TruckSim-Map
+    .concat(cities_roextended_turkey); //RoExtended Turkey (v2.8)
 //cities = cities.concat(cities_open_spaces); //Open Spaces
 //cities = cities.concat(cities_yks_turkey); //YKS Turkey
 //cities = cities.concat(cities_yksrsk); //YKSRSK
