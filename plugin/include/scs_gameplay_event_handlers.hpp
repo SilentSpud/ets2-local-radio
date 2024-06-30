@@ -9,14 +9,13 @@
 // Plug-in
 #include "scs-telemetry-common.hpp"
 
-
 typedef struct scsGameplayEventHandler_s
 {
 	char const *id;
-	void (*handle) (const scs_named_value_t* current);
+	void (*handle)(const scs_named_value_t *current);
 } scsGameplayEventHandler_t;
 
-#define scsGameplayEventHandle(id, attribute) void handle##id##attribute (const scs_named_value_t* current)
+#define scsGameplayEventHandle(id, attribute) void handle##id##attribute(const scs_named_value_t *current)
 
 // Define prototypes for all the various handlers
 
@@ -46,7 +45,6 @@ scsGameplayEventHandle(Ferry, TargetName);
 scsGameplayEventHandle(Ferry, SourceId);
 scsGameplayEventHandle(Ferry, TargetId);
 
-
 // Train
 scsGameplayEventHandle(Train, PayAmount);
 scsGameplayEventHandle(Train, SourceName);
@@ -54,7 +52,6 @@ scsGameplayEventHandle(Train, TargetName);
 scsGameplayEventHandle(Train, SourceId);
 scsGameplayEventHandle(Train, TargetId);
 
-
-bool handleGpe(const scs_named_value_t* info,const gameplayType type );
+bool handleGpe(const scs_named_value_t *info, const gameplayType type);
 
 #endif

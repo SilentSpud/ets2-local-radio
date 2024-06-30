@@ -21,13 +21,13 @@
 var stations_custom = {};
 
 for (var key in stations_custom) {
-    if(stations_custom.hasOwnProperty(key)){
-        if(stations.hasOwnProperty(key)){
-            for(var i = 0; i < stations_custom[key].length; i++){
-                stations[key].push(stations_custom[key][i])
-            }
-        } else {
-            stations[key] = stations_custom[key];
-        }
+  if (stations_custom.hasOwnProperty(key)) {
+    if (stations.hasOwnProperty(key)) {
+      for (var i = 0; i < stations_custom[key].length; i++) {
+        stations[key].push(stations_custom[key][i]);
+      }
+    } else {
+      stations[key] = stations_custom[key];
     }
+  }
 }

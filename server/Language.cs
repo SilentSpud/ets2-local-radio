@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,33 +8,33 @@ using Newtonsoft.Json.Linq;
 
 namespace ETS2_Local_Radio_server
 {
-    class Language
+  class Language
+  {
+    internal string Lang = "en-GB";
+
+    public Language(string lang)
     {
-        internal string Lang = "en-GB";
-
-        public Language(string lang)
-        {
-            Lang = lang;
-        }
-
-        public dynamic GetFile()
-        {
-            StreamReader reader = new StreamReader(Directory.GetCurrentDirectory() + "\\web\\lang\\" + Lang + ".json");
-            string content = reader.ReadToEnd();
-            reader.Close();
-            dynamic data = JObject.Parse(content);
-            dynamic server = data.server;
-            return server;
-        }
-
-        public bool GetRTL()
-        {
-            StreamReader reader = new StreamReader(Directory.GetCurrentDirectory() + "\\web\\lang\\" + Lang + ".json");
-            string content = reader.ReadToEnd();
-            reader.Close();
-            dynamic data = JObject.Parse(content);
-            reader.Close();
-            return (data["rtl"] != null && data["rtl"] == true);
-        }
+      Lang = lang;
     }
+
+    public dynamic GetFile()
+    {
+      StreamReader reader = new StreamReader(Directory.GetCurrentDirectory() + "\\web\\lang\\" + Lang + ".json");
+      string content = reader.ReadToEnd();
+      reader.Close();
+      dynamic data = JObject.Parse(content);
+      dynamic server = data.server;
+      return server;
+    }
+
+    public bool GetRTL()
+    {
+      StreamReader reader = new StreamReader(Directory.GetCurrentDirectory() + "\\web\\lang\\" + Lang + ".json");
+      string content = reader.ReadToEnd();
+      reader.Close();
+      dynamic data = JObject.Parse(content);
+      reader.Close();
+      return (data["rtl"] != null && data["rtl"] == true);
+    }
+  }
 }

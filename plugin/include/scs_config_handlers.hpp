@@ -11,11 +11,10 @@
 // Plug-in
 #include "scs-telemetry-common.hpp"
 
-
 typedef struct scsConfigHandler_s
 {
-    char const *id;
-    void (*handle)(const scs_named_value_t *current, const unsigned int trailer_id);
+  char const *id;
+  void (*handle)(const scs_named_value_t *current, const unsigned int trailer_id);
 } scsConfigHandler_t;
 
 /*  define: scsConfigHandle
