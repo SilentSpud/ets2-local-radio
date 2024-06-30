@@ -19,10 +19,10 @@ using System.Windows.Forms;
 using Capture;
 using Capture.Hook;
 using Capture.Interface;
-using ETS2_Local_Radio_server.Properties;
+using Radio_Server.Properties;
 using Svg;
 
-namespace ETS2_Local_Radio_server
+namespace Radio_Server
 {
   static class Station
   {

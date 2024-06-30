@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace ETS2_Local_Radio_server
+namespace Radio_Server
 {
   static class Program
   {

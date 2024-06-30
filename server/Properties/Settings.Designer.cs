@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ETS2_Local_Radio_server.Properties
+namespace Radio_Server.Properties
 {
 
 

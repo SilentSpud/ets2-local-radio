@@ -1,4 +1,4 @@
-namespace ETS2_Local_Radio_server
+namespace Radio_Server
 {
   partial class Main
   {

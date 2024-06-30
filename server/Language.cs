@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
-namespace ETS2_Local_Radio_server
+namespace Radio_Server
 {
   class Language
   {

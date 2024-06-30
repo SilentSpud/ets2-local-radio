@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ETS2_Local_Radio_server
+namespace Radio_Server
 {
   public partial class Splash : Form
   {

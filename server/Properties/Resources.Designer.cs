@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ETS2_Local_Radio_server.Properties
+namespace Radio_Server.Properties
 {
   using System;
 
@@ -45,7 +45,7 @@ namespace ETS2_Local_Radio_server.Properties
       {
         if (object.ReferenceEquals(resourceMan, null))
         {
-          global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ETS2_Local_Radio_server.Properties.Resources", typeof(Resources).Assembly);
+          global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Radio_Server.Properties.Resources", typeof(Resources).Assembly);
           resourceMan = temp;
         }
         return resourceMan;

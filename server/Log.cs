@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ETS2_Local_Radio_server
+namespace Radio_Server
 {
   static class Log
   {

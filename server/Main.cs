@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 using DeftSharp.Windows.Input.Keyboard;
-using ETS2_Local_Radio_server.Properties;
+using Radio_Server.Properties;
 using Gma.System.MouseKeyHook;
 using Microsoft.Win32;
 using Newtonsoft.Json;
@@ -23,7 +23,7 @@ using Newtonsoft.Json.Linq;
 using SCSSdkClient;
 using SCSSdkClient.Object;
 
-namespace ETS2_Local_Radio_server
+namespace Radio_Server
 {
   public partial class Main : Form
   {

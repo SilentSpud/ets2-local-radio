@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
 
-namespace ETS2_Local_Radio_server
+namespace Radio_Server
 {
   public class SimpleHTTPServer
   {

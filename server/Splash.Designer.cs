@@ -1,4 +1,4 @@
-namespace ETS2_Local_Radio_server
+namespace Radio_Server
 {
   partial class Splash
   {
@@ -35,7 +35,7 @@ namespace ETS2_Local_Radio_server
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.BackgroundImage = global::ETS2_Local_Radio_server.Properties.Resources.dashboard;
+      this.BackgroundImage = global::Radio_Server.Properties.Resources.dashboard;
       this.ClientSize = new System.Drawing.Size(480, 275);
       this.ControlBox = false;
       this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETS2_Local_Radio_server
+namespace Radio_Server
 {
   public class Commands
   {
