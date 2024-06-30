@@ -13,7 +13,7 @@ Not available in yours? [Translate it](https://koenvh.nl/translate). I will add 
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KAX2AA9B85BAE)
 
-## How to install it
+## Installation
 
 1. Download ATS/ETS2 Local Radio from the [releases page](https://github.com/Koenvh1/ets2-local-radio/releases)
 2. Extract it wherever you like
@@ -31,13 +31,13 @@ Found a station that does not work, a wrong (or incomplete) translation or somet
 
 Make sure to read the troubleshooting section below beforehand, as well as the other issues!
 
-## General information
+## Frequently Asked Questions
 
-### How the system works
+### How does this work?
 
 Every city acts as a transmission tower with a certain range, and every city is bound to a country. The program check the distance to every city, and when it is within reach, the stations for that country are displayed. When a city from a different country is closer than the one currently connected to (with a threshold), and the reception is better, the radio automatically switches to that country.
 
-### What does that coverage map show?
+### What does the coverage map show?
 
 It shows all the transmission towers (the cities), with a range circle. The black inner ring is the clear audio border (~20% static). Each country has its own (random) colour, to make it easier to see the difference between them.
 
@@ -63,7 +63,7 @@ Imagine a radio station that has a range of 50km in real life (which is quite a 
 
 The problem you create then is that the radio constantly switches stations, which is not really desirable. I worked around this in ATS, where radio stations are licensed per city instead of per state, by making the range unrealistically large and making it switch later than in ETS2, but the problem still exists there too.
 
-### Can you support map x?
+### Can you support map `x`?
 
 Maybe, maybe not. You can always send in a request.
 
@@ -100,7 +100,7 @@ Yes you can. Click the "Clone or download" button above, and then click "Downloa
 
 ## Troubleshooting
 
-### Can't access it from another device
+### Can't access the radio from another device
 
 Try restarting ATS/ETS2 Local Radio server. Please make sure your firewall is not blocking the connection. If you use a different firewall that Windows Firewall, then please allow incoming connections on port 8330. You can test whether the firewall is the issue by going to [http://localhost:8330](http://localhost:8330),
 if that works, it is most likely a firewall issue. Add ATS/ETS2 Local Radio server and/or incoming port 8330 (TCP) to the exceptions list (consult your firewall's manual how to do that), or just use [http://localhost:8330](http://localhost:8330).
