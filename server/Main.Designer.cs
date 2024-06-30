@@ -668,7 +668,6 @@
             // 
             Koenvh.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             Koenvh.Cursor = Cursors.Hand;
-            Koenvh.Image = server.Properties.Resources.Koenvh_fat_text_smaller;
             Koenvh.Location = new Point(163, 680);
             Koenvh.Margin = new Padding(4, 3, 4, 3);
             Koenvh.Name = "Koenvh";

@@ -14,6 +14,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
+using DeftSharp.Windows.Input.Keyboard;
 using ETS2_Local_Radio_server.Properties;
 using Gma.System.MouseKeyHook;
 using Microsoft.Win32;
@@ -27,6 +28,8 @@ namespace ETS2_Local_Radio_server
     public partial class Main : Form
     {
         public SCSSdkTelemetry Telemetry;
+
+        private KeyboardListener listener;
 
         public SimpleHTTPServer myServer;
 
@@ -53,8 +56,9 @@ namespace ETS2_Local_Radio_server
 
         public static string currentGame = "none";
 
-        public Main()
+        public Main(KeyboardListener new_listener)
         {
+            listener = new_listener;
             InitializeComponent();
         }
 
