@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\sdk\SCSSdkClient.csproj" />
+    <ProjectReference Include="..\sdk\sdk-client.csproj" />
   </ItemGroup>
 
 </Project>
