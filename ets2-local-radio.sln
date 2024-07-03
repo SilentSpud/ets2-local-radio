@@ -8,6 +8,26 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "radio-server", "server\radi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sdk-client", "sdk\sdk-client.csproj", "{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "web\", "{6DAC1160-093C-4BEF-A5A0-E8DF86E12F8D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50723"
+		Debug.AspNetCompiler.PhysicalPath = "web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50723\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50723"
+		Release.AspNetCompiler.PhysicalPath = "web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50723\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50723"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -26,6 +46,10 @@ Global
 		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Debug|x64.Build.0 = Debug|x64
 		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Release|x64.ActiveCfg = Release|x64
 		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Release|x64.Build.0 = Release|x64
+		{6DAC1160-093C-4BEF-A5A0-E8DF86E12F8D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6DAC1160-093C-4BEF-A5A0-E8DF86E12F8D}.Debug|x64.Build.0 = Debug|Any CPU
+		{6DAC1160-093C-4BEF-A5A0-E8DF86E12F8D}.Release|x64.ActiveCfg = Debug|Any CPU
+		{6DAC1160-093C-4BEF-A5A0-E8DF86E12F8D}.Release|x64.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
