@@ -19,4 +19,8 @@
     <PackageReference Include="XInputium" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\sdk\SCSSdkClient.csproj" />
+  </ItemGroup>
+
 </Project>

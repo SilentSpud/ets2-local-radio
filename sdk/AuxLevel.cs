@@ -1,29 +1,27 @@
-namespace Telemetry_Client
-{
-  /// <summary>
-  ///     Intensity Level of Auxiliary Lights
-  /// </summary>
-  public enum AuxLevel
-  {
-    /// About: Values
-    /// 
-    /// Off     - The lights are off
-    /// Dimmed  - The lights are in a dimmed state
-    /// Full    - The lights are in full state
-
+﻿namespace SCSSdkClient {
     /// <summary>
-    ///     The Lights are off
+    ///     Intensity Level of Auxiliary Lights
     /// </summary>
-    Off,
+    public enum AuxLevel {
+        /// About: Values
+        /// 
+        /// Off     - The lights are off
+        /// Dimmed  - The lights are in a dimmed state
+        /// Full    - The lights are in full state
+         
+        /// <summary>
+        ///     The Lights are off
+        /// </summary>
+        Off,
 
-    /// <summary>
-    ///     The lights are in a dimmed state
-    /// </summary>
-    Dimmed,
+        /// <summary>
+        ///     The lights are in a dimmed state
+        /// </summary>
+        Dimmed,
 
-    /// <summary>
-    ///     The lights are in full state
-    /// </summary>
-    Full
-  }
+        /// <summary>
+        ///     The lights are in full state
+        /// </summary>
+        Full
+    }
 }

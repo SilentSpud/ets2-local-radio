@@ -20,8 +20,8 @@ using Gma.System.MouseKeyHook;
 using Microsoft.Win32;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using SCSTelemetry;
-using SCSTelemetry.Object;
+using SCSSdkClient;
+using SCSSdkClient.Object;
 
 namespace Radio_Server
 {

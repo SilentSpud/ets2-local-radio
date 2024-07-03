@@ -1,36 +1,34 @@
-namespace SCS_SDK
-{
-  /// <summary>
-  ///     Shifter Type
-  /// </summary>
-  public enum ShifterType
-  {
-    /// About: Values
-    /// 
-    /// Arcade     - Dont' now (some problems)
-    /// Automatic  - Automatic Shifter
-    /// Manual     - Manual Shifter (some problems)
-    /// HShifter   - HShifter
-    Unknown,
-
+﻿namespace SCSSdkClient {
     /// <summary>
-    ///     Don't now
+    ///     Shifter Type
     /// </summary>
-    Arcade,
+    public enum ShifterType {
+        /// About: Values
+        /// 
+        /// Arcade     - Dont' now (some problems)
+        /// Automatic  - Automatic Shifter
+        /// Manual     - Manual Shifter (some problems)
+        /// HShifter   - HShifter
+        Unknown,
 
-    /// <summary>
-    ///     Automatic Shifter
-    /// </summary>
-    Automatic,
+        /// <summary>
+        ///     Don't now
+        /// </summary>
+        Arcade,
 
-    /// <summary>
-    ///     Manual Shifter
-    /// </summary>
-    Manual,
+        /// <summary>
+        ///     Automatic Shifter
+        /// </summary>
+        Automatic,
 
-    /// <summary>
-    ///     HShifter
-    /// </summary>
-    HShifter
-  }
+        /// <summary>
+        ///     Manual Shifter
+        /// </summary>
+        Manual,
+
+        /// <summary>
+        ///     HShifter
+        /// </summary>
+        HShifter
+    }
 }
