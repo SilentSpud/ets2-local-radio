@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server App", "server\ETS2 Local Radio desktop.csproj", "{B0B66C89-4096-47BE-AF11-38CC83FADE40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capture", "capture\Capture.csproj", "{23178A3D-2AC0-419A-B1B6-59CA45191270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDK Client", "sdk-client\SCSSdkClient.csproj", "{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game Plugin", "plugin\scs-telemetry.vcxproj", "{0B739935-E779-415A-B76C-0073EAE72A81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0B66C89-4096-47BE-AF11-38CC83FADE40}.Debug|x64.ActiveCfg = Debug|x64
+		{B0B66C89-4096-47BE-AF11-38CC83FADE40}.Debug|x64.Build.0 = Debug|x64
+		{B0B66C89-4096-47BE-AF11-38CC83FADE40}.Debug|x64.ActiveCfg = Debug|x64
+		{B0B66C89-4096-47BE-AF11-38CC83FADE40}.Debug|x64.Build.0 = Debug|x64
+		{B0B66C89-4096-47BE-AF11-38CC83FADE40}.Release|x64.ActiveCfg = Release|x64
+		{B0B66C89-4096-47BE-AF11-38CC83FADE40}.Release|x64.Build.0 = Release|x64
+		{B0B66C89-4096-47BE-AF11-38CC83FADE40}.Release|x64.ActiveCfg = Release|x64
+		{B0B66C89-4096-47BE-AF11-38CC83FADE40}.Release|x64.Build.0 = Release|x64
+		{23178A3D-2AC0-419A-B1B6-59CA45191270}.Debug|x64.ActiveCfg = Debug|x64
+		{23178A3D-2AC0-419A-B1B6-59CA45191270}.Debug|x64.Build.0 = Debug|x64
+		{23178A3D-2AC0-419A-B1B6-59CA45191270}.Debug|x64.ActiveCfg = Debug|x64
+		{23178A3D-2AC0-419A-B1B6-59CA45191270}.Debug|x64.Build.0 = Debug|x64
+		{23178A3D-2AC0-419A-B1B6-59CA45191270}.Release|x64.ActiveCfg = Release|x64
+		{23178A3D-2AC0-419A-B1B6-59CA45191270}.Release|x64.Build.0 = Release|x64
+		{23178A3D-2AC0-419A-B1B6-59CA45191270}.Release|x64.ActiveCfg = Release|x64
+		{23178A3D-2AC0-419A-B1B6-59CA45191270}.Release|x64.Build.0 = Release|x64
+		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Debug|x64.ActiveCfg = Debug|x64
+		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Debug|x64.Build.0 = Debug|x64
+		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Debug|x64.ActiveCfg = Debug|x64
+		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Debug|x64.Build.0 = Debug|x64
+		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Release|x64.ActiveCfg = Release|x64
+		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Release|x64.Build.0 = Release|x64
+		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Release|x64.ActiveCfg = Release|x64
+		{B62F8E57-9D8C-4EA2-90E4-1F6B09DCE468}.Release|x64.Build.0 = Release|x64
+		{0B739935-E779-415A-B76C-0073EAE72A81}.Debug|x64.ActiveCfg = Debug|x64
+		{0B739935-E779-415A-B76C-0073EAE72A81}.Debug|x64.Build.0 = Debug|x64
+		{0B739935-E779-415A-B76C-0073EAE72A81}.Release|x64.ActiveCfg = Release|x64
+		{0B739935-E779-415A-B76C-0073EAE72A81}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BF96296-89B6-441D-BF71-601B40D80609}
+	EndGlobalSection
+EndGlobal
